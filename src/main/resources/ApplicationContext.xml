@@ -10,16 +10,20 @@
     http://www.springframework.org/schema/aop
     http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
     ">  
+    
+    
+    
+ <!--    
   <bean id ="car" class ="com.example.model.Car">
-  <!-- Setter injections -->
+  Setter injections
     <property name="engine" ref="engine"></property>
     
-    <!-- Constructor injection -->
+    Constructor injection
     <constructor-arg ref = "engine"></constructor-arg>
     
     </bean>
     
-    <bean id ="engine" class ="com.example.model.Engine"></bean>
+    <bean id ="engine" class ="com.example.model.Engine"></bean> -->
     
 
 </beans>
