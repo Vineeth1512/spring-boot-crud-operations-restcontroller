@@ -8,6 +8,11 @@ public class Car {
 
 	}
 
+	public Car(Engine engine) {
+		super();
+		this.engine = engine;
+	}
+
 	public void setEngine(Engine engine) {
 		this.engine = engine;
 	}
