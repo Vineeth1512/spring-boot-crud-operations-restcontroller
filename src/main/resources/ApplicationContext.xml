@@ -13,17 +13,18 @@
     
     
     
- <!--    
-  <bean id ="car" class ="com.example.model.Car">
-  Setter injections
-    <property name="engine" ref="engine"></property>
     
-    Constructor injection
-    <constructor-arg ref = "engine"></constructor-arg>
+  <bean id ="car" class ="com.example.model.Car">
+<!--   Setter injections
+ -->    <property name="engine" ref="engine"></property>
+    
+<!--     Constructor injection
+ -->    <constructor-arg ref = "engine"></constructor-arg>
     
     </bean>
     
-    <bean id ="engine" class ="com.example.model.Engine"></bean> -->
+    
+    <bean id ="engine" class ="com.example.model.Engine"></bean>
     
 
 </beans>
